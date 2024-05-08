@@ -42,6 +42,16 @@ function Navbar() {
                   Influence
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/statistics" className="nav-link">
+                  Statistics
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/weakly" className="nav-link">
+                  Weak Components
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

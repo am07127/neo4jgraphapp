@@ -6,6 +6,8 @@ import CandidateSeats from './components/seats';
 import CandidatePredictions from './components/prediction';
 import CandidateInfluence from './components/centrality';
 import { Routes, Route } from 'react-router-dom';
+import Statistics from './components/statistics';
+import Weakly from './components/weakly';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/seats" element={<CandidateSeats />} />
         <Route path="/predictions" element={<CandidatePredictions />} />
         <Route path="/betweenness" element={<CandidateInfluence />} />
+        <Route path="/statistics" element= {<Statistics/>}/>
+        <Route path="/weakly" element= {<Weakly/>}/>
       </Routes>
     </div>
   );
